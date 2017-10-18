@@ -1,0 +1,836 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Material design</title>
+
+	<meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.0/css/font-awesome.min.css">
+
+    <!-- Bootstrap core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Material Design Bootstrap -->
+    <link href="css/mdb.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" type="text/css" href="material_design.css">
+
+</head>
+<body>
+<!--Navbar-->
+    <nav class="navbar navbar-dark navbar-fixed-top scrolling-navbar top-nav-collapse">
+
+        <!-- Collapse button-->
+        <button class="navbar-toggler hidden-sm-up" type="button" data-toggle="collapse" data-target="#collapseEx2">
+            <i class="fa fa-bars"></i>
+        </button>
+
+        <div class="container-fluid">
+
+            <!--Collapse content-->
+            <div class="collapse navbar-toggleable-xs" id="collapseEx2">
+                <!--Navbar Brand-->
+                <a class="navbar-brand" href="#">LU RESEARCH BLOG</a>
+                <!--Links-->
+                <ul class="nav navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About LURB</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonials">Catagories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#best-features">Top Posts</a>
+                    </li>
+                </ul>
+                <!--Search form-->
+                <form class="form-inline">
+                    <input class="form-control" type="text" placeholder="Search">
+                </form>
+            </div>
+            <!--/.Collapse content-->
+
+        </div>
+
+    </nav>
+    <!--/.Navbar-->
+
+
+
+
+<!--Carousel Wrapper-->
+<div id="carousel-example-1" class="carousel slide carousel-fade" data-ride="carousel" data-interval="false">
+    <!--Indicators-->
+    <ol class="carousel-indicators">
+        <li data-target="#carousel-example-1" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-1" data-slide-to="1"></li>
+        <li data-target="#carousel-example-1" data-slide-to="2"></li>
+        <li data-target="#carousel-example-1" data-slide-to="3"></li>
+    </ol>
+    <!--/.Indicators-->
+
+    <!--Slides-->
+    <div class="carousel-inner" role="listbox">
+
+        <!--First slide-->
+        <div class="carousel-item active">
+            <!--Mask-->
+            <div class="view hm-black-light">
+                <div class="full-bg-img flex-center">
+                    <ul class="animated fadeInUp col-md-12">
+                        <li>
+                            <h1 class="h1-responsive flex-item">Leading University Research Blog</h1>
+                        </li>
+                        <li>
+                            <p class="flex-item">Teach, Learn, And Share</p>
+                        </li>
+                        <li>
+                            <a target="_blank" href="http://mdbootstrap.com/getting-started/" class="btn btn-primary btn-lg flex-item">Sign up!</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--/.Mask-->
+        </div>
+        <!--/.First slide-->
+
+        <!--Second slide -->
+        <div class="carousel-item">
+            <!--Mask-->
+            <div class="view hm-black-light">
+                <div class="full-bg-img flex-center">
+                    <ul class="animated fadeInUp col-md-12">
+                        <li>
+                            <h1 class="h1-responsive">Lots of tutorials at your disposal</h1>
+                        </li>
+                        <li>
+                            <p>All your needs are here.Its free!</p>
+                        </li>
+                        <li>
+                            <a target="_blank" href="http://mdbootstrap.com/bootstrap-tutorial/" class="btn btn-primary btn-lg">Start learning</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--/.Mask-->
+        </div>
+        <!--/.Second slide -->
+
+        <!--Third slide-->
+        <div class="carousel-item">
+            <!--Mask-->
+            <div class="view hm-black-light">
+                <div class="full-bg-img flex-center">
+                    <ul class="animated fadeInUp col-md-12">
+                        <li>
+                            <h1 class="h1-responsive">Teach the people to Enlighten the world</h1></li>
+                        <li>
+                            <p>Spread your knowledge everywhere</p>
+                        </li>
+                        <li>
+                            <a target="_blank" href="http://mdbootstrap.com/forums/forum/support/" class="btn btn-default btn-lg">Teach Everyone</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--/.Mask-->
+        </div>
+        <!--/.Third slide-->
+
+        <!--Fourth slide-->
+        <div class="carousel-item">
+            <!--Mask-->
+            <div class="view hm-black-light">
+                <div class="full-bg-img flex-center">
+                    <ul class="animated fadeInUp col-md-12">
+                        <li>
+                            <h1 class="h1-responsive">Share with the people whatever you share</h1></li>
+                        <li>
+                            <p>Help people to learn something</p>
+                        </li>
+                        <li>
+                            <a target="_blank" href="http://mdbootstrap.com/forums/forum/support/" class="btn btn-default btn-lg">Share everywhere</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            <!--/.Mask-->
+        </div>
+        <!--/.Fourth slide-->
+    </div>
+    <!--/.Slides-->
+
+    <!--Controls-->
+    <a class="left carousel-control" href="#carousel-example-1" role="button" data-slide="prev">
+        <span class="icon-prev" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+    </a>
+    <a class="right carousel-control" href="#carousel-example-1" role="button" data-slide="next">
+        <span class="icon-next" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+    </a>
+    <!--/.Controls-->
+</div>
+<!--/.Carousel Wrapper-->
+
+
+<!-- Main container-->
+<div class="container">
+
+    <div class="divider-new">
+        <h2 class="h2-responsive wow bounceIn">About LURB</h2>
+    </div>
+
+   <!--Section: About-->
+<section id="about" class="text-xs-center wow bounceIn" data-wow-delay="0.2s">
+
+    <p>Leading University Research Blog has been made for the people who want to learn something,teach something,and share something.You can do anything in here
+   .Its a free and open planform for everybody.</p>
+   <p>The purpose for making this blog is to enlighten the people and make them capable to do something.You can prove yourself here and everywhere.That makes
+   your life better for this generation.And finally you learn something from here,teach something and share something.Thats make you better and everyone.so
+   Teach,Learn and Share.</p>
+
+</section>
+<!--Section: About-->
+
+<div class="divider-new">
+            <h2 class="h2-responsive wow fadeInDown">Catagories</h2>
+        </div>
+
+        <!--Section: Testimonials-->
+        <section id="testimonials">
+            <div class="row">
+                <!--Carousel Wrapper-->
+                <div id="multi-item-example" class="carousel slide carousel-multi-item wow fadeIn" data-ride="carousel">
+
+                    <!--Controls-->
+                    <div class="controls-top">
+                        <a class="btn-floating btn-small mdb-color" href="#multi-item-example" data-slide="prev"><i class="fa fa-chevron-left"></i></a>
+                        <a class="btn-floating btn-small mdb-color" href="#multi-item-example" data-slide="next"><i class="fa fa-chevron-right"></i></a>
+                    </div>
+                    <!--/.Controls-->
+
+                    <!--Indicators-->
+                    <ol class="carousel-indicators">
+                        <li data-target="#multi-item-example" data-slide-to="0" class="active"></li>
+                        <li data-target="#multi-item-example" data-slide-to="1"></li>
+                        <li data-target="#multi-item-example" data-slide-to="2"></li>
+                    </ol>
+                    <!--/.Indicators-->
+
+                    <!--Slides-->
+                    <div class="carousel-inner" role="listbox">
+
+                        <!--First slide-->
+                        <div class="carousel-item active">
+
+                            <div class="col-md-4">
+                                <!--Card-->
+                                <div class="card testimonial-card">
+
+                                    <!--Bacground color-->
+                                    <div class="card-up green lighten-1">
+                                    </div>
+
+                                    <!--Avatar-->
+                                    <div class="avatar"><img src="http://mdbootstrap.com/wp-content/uploads/2015/10/avatar-1.jpg" class="img-circle img-responsive">
+                                    </div>
+
+                                    <div class="card-block">
+                                        <!--Name-->
+                                        <h4 class="card-title">Programming</h4>
+                                        <hr>
+                                        <!--Quotation-->
+                                        <p><i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci</p>
+                                    </div>
+
+                                </div>
+                                <!--/.Card-->
+                            </div>
+
+                            <div class="col-md-4 hidden-sm-down">
+                                <!--Card-->
+                                <div class="card testimonial-card">
+
+                                    <!--Bacground color-->
+                                    <div class="card-up green darken-2">
+                                    </div>
+
+                                    <!--Avatar-->
+                                    <div class="avatar"><img src="http://mdbootstrap.com/wp-content/uploads/2015/10/avatar-2.jpg" class="img-circle img-responsive">
+                                    </div>
+
+                                    <div class="card-block">
+                                        <!--Name-->
+                                        <h4 class="card-title">Networking</h4>
+                                        <hr>
+                                        <!--Quotation-->
+                                        <p><i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci</p>
+                                    </div>
+
+                                </div>
+                                <!--/.Card-->
+                            </div>
+
+                            <div class="col-md-4 hidden-sm-down">
+                                <!--Card-->
+                                <div class="card testimonial-card">
+
+                                    <!--Bacground color-->
+                                    <div class="card-up  green darken-4">
+                                    </div>
+
+                                    <!--Avatar-->
+                                    <div class="avatar"><img src="http://mdbootstrap.com/wp-content/uploads/2015/10/avatar-3.jpg" class="img-circle img-responsive">
+                                    </div>
+
+                                    <div class="card-block">
+                                        <!--Name-->
+                                        <h4 class="card-title">Algorithm</h4>
+                                        <hr>
+                                        <!--Quotation-->
+                                        <p><i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci</p>
+                                    </div>
+
+                                </div>
+                                <!--/.Card-->
+                            </div>
+
+                        </div>
+                        <!--/.First slide-->
+
+                        <!--Second slide-->
+                        <div class="carousel-item">
+
+                            <div class="col-md-4">
+                                <!--Card-->
+                                <div class="card testimonial-card">
+
+                                    <!--Bacground color-->
+                                    <div class="card-up blue lighten-1">
+                                    </div>
+
+                                    <!--Avatar-->
+                                    <div class="avatar"><img src="http://mdbootstrap.com/wp-content/uploads/2015/10/team-avatar-1.jpg" class="img-circle img-responsive">
+                                    </div>
+
+                                    <div class="card-block">
+                                        <!--Name-->
+                                        <h4 class="card-title">Data-Structure</h4>
+                                        <hr>
+                                        <!--Quotation-->
+                                        <p><i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci</p>
+                                    </div>
+
+                                </div>
+                                <!--/.Card-->
+                            </div>
+
+                            <div class="col-md-4 hidden-sm-down">
+                                <!--Card-->
+                                <div class="card testimonial-card">
+
+                                    <!--Bacground color-->
+                                    <div class="card-up blue darken-2">
+                                    </div>
+
+                                    <!--Avatar-->
+                                    <div class="avatar"><img src="http://mdbootstrap.com/wp-content/uploads/2015/10/team-avatar-2.jpg" class="img-circle img-responsive">
+                                    </div>
+
+                                    <div class="card-block">
+                                        <!--Name-->
+                                        <h4 class="card-title">Graphics</h4>
+                                        <hr>
+                                        <!--Quotation-->
+                                        <p><i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci</p>
+                                    </div>
+
+                                </div>
+                                <!--/.Card-->
+                            </div>
+
+                            <div class="col-md-4 hidden-sm-down">
+                                <!--Card-->
+                                <div class="card testimonial-card">
+
+                                    <!--Bacground color-->
+                                    <div class="card-up blue darken-4">
+                                    </div>
+
+                                    <!--Avatar-->
+                                    <div class="avatar"><img src="http://mdbootstrap.com/wp-content/uploads/2015/10/team-avatar-3.jpg" class="img-circle img-responsive">
+                                    </div>
+
+                                    <div class="card-block">
+                                        <!--Name-->
+                                        <h4 class="card-title">Web-desing</h4>
+                                        <hr>
+                                        <!--Quotation-->
+                                        <p><i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci</p>
+                                    </div>
+
+                                </div>
+                                <!--/.Card-->
+                            </div>
+
+                        </div>
+                        <!--/.Second slide-->
+
+                        <!--Third slide-->
+                        <div class="carousel-item">
+
+                            <div class="col-md-4">
+                                <!--Card-->
+                                <div class="card testimonial-card">
+
+                                    <!--Bacground color-->
+                                    <div class="card-up indigo lighten-1">
+                                    </div>
+
+                                    <!--Avatar-->
+                                    <div class="avatar"><img src="http://mdbootstrap.com/wp-content/uploads/2015/10/avatar-3.jpg" class="img-circle img-responsive">
+                                    </div>
+
+                                    <div class="card-block">
+                                        <!--Name-->
+                                        <h4 class="card-title">Web-Development</h4>
+                                        <hr>
+                                        <!--Quotation-->
+                                        <p><i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci</p>
+                                    </div>
+
+                                </div>
+                                <!--/.Card-->
+                            </div>
+
+                            <div class="col-md-4 hidden-sm-down">
+                                <!--Card-->
+                                <div class="card testimonial-card">
+
+                                    <!--Bacground color-->
+                                    <div class="card-up indigo darken-1">
+                                    </div>
+
+                                    <!--Avatar-->
+                                    <div class="avatar"><img src="http://mdbootstrap.com/wp-content/uploads/2015/10/team-avatar-1.jpg" class="img-circle img-responsive">
+                                    </div>
+
+                                    <div class="card-block">
+                                        <!--Name-->
+                                        <h4 class="card-title">Mathmatics</h4>
+                                        <hr>
+                                        <!--Quotation-->
+                                        <p><i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci</p>
+                                    </div>
+
+                                </div>
+                                <!--/.Card-->
+                            </div>
+
+                            <div class="col-md-4 hidden-sm-down">
+                                <!--Card-->
+                                <div class="card testimonial-card">
+
+                                    <!--Bacground color-->
+                                    <div class="card-up indigo darken-4">
+                                    </div>
+
+                                    <!--Avatar-->
+                                    <div class="avatar"><img src="http://mdbootstrap.com/wp-content/uploads/2015/10/team-avatar-2.jpg" class="img-circle img-responsive">
+                                    </div>
+
+                                    <div class="card-block">
+                                        <!--Name-->
+                                        <h4 class="card-title">Cellular Network</h4>
+                                        <hr>
+                                        <!--Quotation-->
+                                        <p><i class="fa fa-quote-left"></i> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos, adipisci</p>
+                                    </div>
+
+                                </div>
+                                <!--/.Card-->
+                            </div>
+
+                        </div>
+                        <!--/.Third slide-->
+
+                    </div>
+                    <!--/.Slides-->
+
+                </div>
+                <!--/.Carousel Wrapper-->
+            </div>
+        </section>
+        <!--/Section: Testimonials-->
+
+
+    <div class="divider-new">
+        <h2 class="h2-responsive wow fadeInDown">Top Posts</h2>
+    </div>
+
+    <!--Section: Best features-->
+    
+<!--Section: Best features-->
+<section id="best-features">
+
+    <div class="row">
+
+        <!--First columnn-->
+        <div class="col-md-3">
+            <!--Card-->
+            <div class="card wow fadeInUp">
+
+                <!--Card image-->
+                <div class="view overlay hm-white-slight">
+                    <img src="keep-calm-and-study-.jpg" class="img-fluid" alt="">
+                    <a>
+                        <div class="mask"></div>
+                    </a>
+                </div>
+                <!--/.Card image-->
+
+                <!--Card content-->
+                <div class="card-block text-xs-center">
+                    <!--Title-->
+                    <h4 class="card-title">Java</h4>
+                    <hr>
+                    <!--Text-->
+                    <p class="card-text">Java is a programming language and computing platform first released by Sun Microsystems in 1995. There are lots of applications and websites that will not work unless you have Java installed, and more are created every day. Java is fast, secure, and reliable. From laptops to datacenters, game consoles to scientific supercomputers, cell phones to the Internet, Java is everywhere!</p><p><a href="#" class="btn btn-primary btn-sm" role="button">Read More</a></p>
+                </div>
+                <!--/.Card content-->
+
+            </div>
+            <!--/.Card-->
+        </div>
+        <!--First columnn-->
+
+        <!--Second columnn-->
+        <div class="col-md-3">
+            <!--Card-->
+           <div class="card wow fadeInUp" data-wow-delay="0.2s">
+
+                <!--Card image-->
+                <div class="view overlay hm-white-slight">
+                    <img src="yazar.jpg" class="img-fluid" alt="">
+                    <a>
+                        <div class="mask"></div>
+                    </a>
+                </div>
+                <!--/.Card image-->
+
+                <!--Card content-->
+                <div class="card-block text-xs-center">
+                    <!--Title-->
+                    <h4 class="card-title">About C++</h4>
+                    <hr>
+                    <!--Text-->
+                    <p class="card-text">C++ is a general purpose object oriented programming language. It is considered to be an intermediate level language, as it encapsulates both high and low level language features. Initially, the language was called 'C with classes’ as it had all properties of C language with an additional concept of 'classes’. However, it was renamed to C++ in 1983."</p><p><a href="#" class="btn btn-primary btn-sm" role="button">Read More</a></p>
+                </div>
+                <!--/.Card content-->
+
+            </div>
+            <!--/.Card-->
+        </div>
+        <!--Second columnn-->
+
+        <!--Third columnn-->
+        <div class="col-md-3">
+            <!--Card-->
+           <div class="card wow fadeInUp" data-wow-delay="0.4s">
+
+                <!--Card image-->
+                <div class="view overlay hm-white-slight">
+                    <img src="writing1.jpg" class="img-fluid" alt="">
+                    <a>
+                        <div class="mask"></div>
+                    </a>
+                </div>
+                <!--/.Card image-->
+
+                <!--Card content-->
+                <div class="card-block text-xs-center">
+                    <!--Title-->
+                    <h4 class="card-title">HTML & CSS</h4>
+                    <hr>
+                    <!--Text-->
+                    <p class="card-text">HTML stands for Hyper Text Markup Language. It is used by Internet browsers to display web content in a structured manner. In this module, we focus on HTML4 (HTML 4.01) version of HTML. We would touch upon HTML5 as and when needed. HTML is a tag-based language and uses tags to identify its elements. Authoring an HTML document is simply a matter of putting content within the relevant tags.</p><p><a href="#" class="btn btn-primary btn-sm" role="button">Read More</a></p>
+                </div>
+                <!--/.Card content-->
+
+            </div>
+            <!--/.Card-->
+        </div>
+        <!--Third columnn-->
+
+        <!--Fourth columnn-->
+        <div class="col-md-3">
+            <!--Card-->
+            <div class="card wow fadeInUp" data-wow-delay="0.6s">
+
+                <!--Card image-->
+                <div class="view overlay hm-white-slight">
+                    <img src="http://mdbootstrap.com/images/regular/city/img%20(8).jpg" class="img-fluid" alt="">
+                    <a>
+                        <div class="mask"></div>
+                    </a>
+                </div>
+                <!--/.Card image-->
+
+                <!--Card content-->
+                <div class="card-block text-xs-center">
+                    <!--Title-->
+                    <h4 class="card-title">Bootstrap</h4>
+                    <hr>
+                    <!--Text-->
+                    <p class="card-text">It is an html, css, javascript framework that you can use as basis for creating web sites or web applications. The official boostrap website is updated and includes a clear definition. "Bootstrap is the most popular HTML, CSS, and JS framework for developing responsive, mobile first projects on the web."</p><p><a href="#" class="btn btn-primary btn-sm" role="button">Read More</a></p>
+                </div>
+                <!--/.Card content-->
+
+            </div>
+            <!--/.Card-->
+        </div>
+        <!--Fourth columnn-->
+    </div>
+
+</section>
+<!--/Section: Best features-->
+
+</div>
+<!--/ Main container-->
+
+
+<!--Mask-->
+<div class="view hm-black-strong">
+    <div class="full-bg-img flex-center">
+        <div class="container">
+            <div class="row" id="home">
+
+                <!--First column-->
+<div class="col-lg-6">
+    <div class="description">
+        <h2 class="h2-responsive wow fadeInLeft">Research Blog</h2>
+        <hr class="hr-dark">
+        <p class="wow fadeInLeft" data-wow-delay="0.4s">Conducting research is an essential part of writing quality blog content. To be a credible industry expert, you need facts, stats, figures, and examples at your disposal -- all external validation that shows you know your stuff.</p>
+        <br>
+        <a class="btn btn-primary wow fadeInLeft" data-wow-delay="0.7s">Learn more</a>
+    </div>
+</div>
+<!--/.First column-->
+
+                
+<!--Second column-->
+<div class="col-lg-6">
+    <!--Form-->
+    <div class="card wow fadeInRight">
+        <div class="card-block">
+            <!--Header-->
+            <div class="text-xs-center">
+                <h3><i class="fa fa-user"></i> Register with:</h3>
+                <a href="" class="btn-floating btn-fb btn-small"><i class="fa fa-facebook"></i></a>
+                <a href="" class="btn-floating btn-tw btn-small"><i class="fa fa-twitter"></i></a>
+                <a href="" class="btn-floating btn-gplus btn-small"><i class="fa fa-google-plus"></i></a>
+                <a href="" class="btn-floating btn-li btn-small"><i class="fa fa-linkedin"></i></a>
+                <a href="" class="btn-floating btn-git btn-small"><i class="fa fa-github"></i></a>
+                <hr>
+                <h3>or:</h3>
+            </div>
+
+            <!--Body-->
+            <div class="md-form">
+                <i class="fa fa-envelope prefix"></i>
+                <input type="text" id="form2" class="form-control">
+                <label for="form2">Your email</label>
+            </div>
+
+            <div class="md-form">
+                <i class="fa fa-lock prefix"></i>
+                <input type="password" id="form2" class="form-control">
+                <label for="form4">password</label>
+            </div>
+
+             <div class="md-form">
+                <i class="fa fa-lock prefix"></i>
+                <input type="text" id="form2" class="form-control">
+                <label for="form4">Your ID</label>
+            </div>
+
+
+            <div class="text-xs-center">
+                <button class="btn btn-primary btn-lg">Sign up</button>
+                <hr>
+                <fieldset class="form-group">
+                    <input type="checkbox" id="checkbox1">
+                    <label for="checkbox1">Subscribe me to the newsletter</label>
+                </fieldset>
+            </div>
+
+        </div>
+    </div>
+    <!--/.Form-->
+</div>
+<!--/Second column-->
+
+            </div>
+        </div>
+    </div>
+</div>
+<!--/.Mask-->
+
+    <!--Footer-->
+    <footer class="page-footer center-on-small-only">
+
+        <!--Footer Links-->
+        <div class="container-fluid">
+            <div class="row">
+
+                <!--First column-->
+                <div class="col-md-3 col-md-offset-1">
+                    <h5 class="title">ABOUT THE BLOG</h5>
+                    <p>This blog is create for the purpose of Teaching,learning, ans sharing those materials that are mostly need for the new generation</p>
+
+                    <p>It gives the students and teachers the best opportunity to gather knowledge.Publish their articles,tutorials and many more.Students can
+                    learn from here and they can prove themselves to the world.</p>
+                </div>
+                <!--/.First column-->
+
+                <hr class="hidden-md-up">
+
+                <!--Second column-->
+                <div class="col-md-2 col-md-offset-1">
+                    <h5 class="title">Programming</h5>
+                    <ul>
+                        <li><a href="http://www.cplusplus.com/">C++ PROGRAMMINNG</a></li>
+                        <li><a href="http://courses.caveofprogramming.com/p/java-for-complete-beginners">JAVA PROGRAMMING</a></li>
+                        <li><a href="https://www.python.org/">PYTHON PROGRAMMING</a></li>
+                        <li><a href="http://www.cprogramming.com/">C PROGRAMMING</a></li>
+                    </ul>
+                </div>
+                <!--/.Second column-->
+
+                <hr class="hidden-md-up">
+
+                <!--Third column-->
+                <div class="col-md-2">
+                    <h5 class="title">Web design & Development</h5>
+                    <ul>
+                        <li><a href="http://www.w3schools.com/html/default.asp">HTML</a></li>
+                        <li><a href="http://www.w3schools.com/css/default.asp">CSS</a></li>
+                        <li><a href="http://www.w3schools.com/php/default.asp">PHP</a></li>
+                        <li><a href="http://www.w3schools.com/js/default.asp">JAVASCRIPT</a></li>
+                    </ul>
+                </div>
+                <!--/.Third column-->
+
+                <hr class="hidden-md-up">
+
+                <!--Fourth column-->
+                <div class="col-md-2">
+                    <h5 class="title">Others</h5>
+                    <ul>
+                        <li><a href="http://www.networking.com/">NETWORKING</a></li>
+                        <li><a href="http://www.graphics.com/">GRAPHICS</a></li>
+                        <li><a href="http://the-mobile-network.com/">CELLULAR</a></li>
+                        <li><a href="http://www.geeksforgeeks.org/">ALGORITHMS</a></li>
+                    </ul>
+                </div>
+                <!--/.Fourth column-->
+
+            </div>
+        </div>
+        <!--/.Footer Links-->
+
+        <hr>
+
+        <!--Call to action-->
+        <!-- <div class="call-to-action">
+            <h4>Leading University Research Blog</h4>
+            <ul>
+                <li>
+                    <h5>Teach,Learn And Share</h5></li>
+                <li><a target="_blank" href="http://mdbootstrap.com/getting-started/" class="btn btn-danger">Sign up!</a></li>
+                <li><a target="_blank" href="http://www.geeksforgeeks.org/" class="btn btn-default">Learn more</a></li>
+            </ul>
+        </div> -->
+        <!--/.Call to action-->
+
+        <!--Copyright-->
+        <div class="footer-copyright">
+            <div class="container-fluid">
+                © 2015 Copyright: <a href=""> S.M.Imtiaz</a></a></a> </a>
+
+            </div>
+        </div>
+        <!--/.Copyright-->
+
+    </footer>
+    <!--/.Footer-->
+
+<!-- javascript -->
+<!-- JQUERY -->
+
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+
+    <!-- Tooltips -->
+    <script type="text/javascript" src="js/tether.min.js"></script>
+
+    <!-- Bootstrap core JavaScript -->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="js/mdb.min.js"></script>
+
+    <!-- <script type="text/javascript">
+        // SideNav init
+        $(".button-collapse").sideNav('show');
+
+        // Custom scrollbar init
+        var el = document.querySelector('.custom-scrollbar');
+        Ps.initialize(el);
+    </script> -->
+
+
+ <!--Google Maps-->
+ <script src="http://maps.google.com/maps/api/js"></script>   
+    
+ <script>
+        function init_map() {
+            var var_location = new google.maps.LatLng(40.725118, -73.997699);
+
+            var var_mapoptions = {
+                center: var_location,
+                zoom: 14
+            };
+
+            var var_marker = new google.maps.Marker({
+                position: var_location,
+                map: var_map,
+                title: "New York"
+            });
+
+            var var_map = new google.maps.Map(document.getElementById("map-container"),
+                var_mapoptions);
+
+            var_marker.setMap(var_map);
+
+        }
+
+        google.maps.event.addDomListener(window, 'load', init_map);
+ </script>
+
+
+<!--Animations initialization-->
+<script>
+new WOW().init();
+</script>
+
+
+
+</body>
+</html>

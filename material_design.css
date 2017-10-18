@@ -1,0 +1,118 @@
+html,
+body,
+.view {
+    height: 100%;
+}
+
+.view {
+    background: url("hd-pics-photos-technology-finger-bulb-blue-spark-desktop-background-wallpaper.jpg")no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.carousel,
+.carousel-item,
+.active {
+    height: 100%;
+}
+
+.carousel-inner {
+    height: 100%;
+}
+
+.carousel-item:nth-child(1) {
+    background-image: url("http://mdbootstrap.com/images/regular/nature/img%20(54).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carousel-item:nth-child(2) {
+    background-image: url("http://mdbootstrap.com/images/regular/nature/img%20(4).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.carousel-item:nth-child(3) {
+    background-image: url("http://mdbootstrap.com/images/regular/nature/img%20(3).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.carousel-item:nth-child(4) {
+    background-image: url("http://mdbootstrap.com/images/regular/nature/img%20(3).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.flex-center {
+    color: #fff;
+}
+#contact .fa{
+	font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+.navbar {
+    background-color: transparent;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+.scrolling-navbar {
+        -webkit-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out, padding .5s ease-in-out;
+        transition: background .5s ease-in-out, padding .5s ease-in-out;
+}
+
+.top-nav-collapse {
+    background-color: #1C2331;
+}
+footer.page-footer {
+    background-color: #1C2331;
+    margin-top: 0;
+}
+
+@media only screen and (max-width: 768px) { /* Transparent is not comfortable for mobile device thats why we use the @media only screen and (max-width:768px) */
+    .navbar {
+        background-color: #1C2331;
+    }
+}
+
+.description {
+    padding-top: 25%;
+    padding-bottom: 3rem;
+    color: #fff
+}
+
+@media (max-width: 992px) {
+    .description {
+        padding-top: 7rem;
+        text-align: center;
+    }
+}
+
+
+.fa-check {
+    color: green;
+}
+
+/*Colors*/
+
+.btn-ptc {
+  background-color: #45526E !important;
+}
+
+.btn-ptc:hover {
+  background-color: #59698d !important;
+}
+
+.btn-ptc:focus {
+  background-color: #59698d !important;
+}
+
+.carousel-multi-item .carousel-indicators li {
+    background-color: #1C2331;
+}
+.carousel-multi-item .carousel-indicators .active {
+    background-color: #1C2331;
+}
